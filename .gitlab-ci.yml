@@ -25,7 +25,7 @@ curseforge:
   stage: deploy
   environment:
     name: CurseForge
-    url: https://wow.curseforge.com/projects/LevelSquish
+    url: https://www.curseforge.com/wow/addons/levelsquish
   script:
     - release.sh -ocelzWHG
 

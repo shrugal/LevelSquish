@@ -33,7 +33,7 @@ local function squishFn(fn, i, j, k, l, m)
     end
 end
 local function unsquishFn(fn)
-    return function (i) return fn(squish(i)) end
+    return function (i) return fn(unsquish(i)) end
 end
 local function squishTbl(t)
     for i,v in pairs(t) do
@@ -77,6 +77,7 @@ GetItemInfo = squishFn(GetItemInfo, 5)
 GetLFGDungeonInfo = squishFn(GetLFGDungeonInfo, 4, 5, 6, 7, 8)
 GetMaxLevelForExpansionLevel = squishFn(GetMaxLevelForExpansionLevel)
 GetMaxPlayerLevel = squishFn(GetMaxPlayerLevel)
+GetQuestLogTitle = squishFn(GetQuestLogTitle, 2)
 GetRandomScenarioInfo = squishFn(GetRandomScenarioInfo, 5, 6)
 GetRestrictedAccountData = squishFn(GetRestrictedAccountData, 1)
 GetRFDungeonInfo = squishFn(GetRFDungeonInfo, 5, 6)
