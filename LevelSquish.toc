@@ -1,0 +1,11 @@
+## Interface: 80200
+## Title: LevelSquish
+## Notes: Simulates the level-squish.
+## Notes-deDE: Simuliert den Level-Squish.
+## Version: @project-version@
+
+LevelSquish.lua
+
+#@do-not-package@
+## Version: 0-dev0
+#@end-do-not-package@
