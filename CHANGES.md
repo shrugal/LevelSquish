@@ -1,1 +1,2 @@
-- Initial version
+- Updated readme
+- Simplified code a bit

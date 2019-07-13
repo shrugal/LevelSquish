@@ -39,7 +39,6 @@ local function squishTbl(t)
     for i,v in pairs(t) do
         t[i] = type(v) == "number" and squish(v) or v
     end
-    return t
 end
 
 -- Squish constants
