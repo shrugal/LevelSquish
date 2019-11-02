@@ -1,2 +1,2 @@
-- Updated readme
-- Simplified code a bit
+- First stable release
+- Updated interface version
