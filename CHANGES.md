@@ -1,2 +1,1 @@
-- First stable release
-- Updated interface version
+- Updated TOC version for 8.3

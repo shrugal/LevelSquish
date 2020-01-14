@@ -1,4 +1,4 @@
-## Interface: 80205
+## Interface: 80300
 ## Title: LevelSquish
 ## Notes: Simulates the level-squish.
 ## Notes-deDE: Simuliert den Level-Squish.
